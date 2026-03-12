@@ -13,3 +13,7 @@ test('open firefox', async ({ page }) => {
     await page.goto('https://www.gmail.com/');
     console.log('opening a browser for gmail ')
 })
+test('open firefox3', async ({ page }) => {
+    await page.goto('https://www.gmail.com/');
+    console.log('opening a browser for gmail ')
+})
